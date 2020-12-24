@@ -83,8 +83,8 @@ body {
   display: grid;
   grid-template-columns: 1fr min-content;
   margin: 1.2rem;
-  -webkit-animation: pulsate-fwd 0.5s linear infinite both;
-  animation: pulsate-fwd 0.5s linear infinite both;
+  -webkit-animation: pulsate-fwd 1s linear infinite both;
+  animation: pulsate-fwd 1s linear infinite both;
 
 }
 
@@ -130,8 +130,10 @@ body {
   font-style: inherit;
   text-decoration: underline;
   display: block;
+  font-size: 2rem;
 }
 .genre {
+  font-size: 1.8rem;
   text-transform: capitalize;
   display: inline-block;
 
@@ -154,10 +156,6 @@ body {
   }
 }
 
-
-
-
-
 /* Single Quotes */
 .single-card {
   margin: 2.5rem auto;
@@ -171,6 +169,9 @@ body {
   position: absolute;
   text-align: end;
   right: 10%;
+  font-size: 2rem;
+  padding: 3rem 0;
+  display: block;
 }
 
 /* Media queries */
